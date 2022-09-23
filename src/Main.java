@@ -59,6 +59,85 @@ public class Main {
         var totalHours2 = totalStaff2 * 8;
         System.out.println("Если в компании работает " + totalStaff2 + " человек, то всего " + totalHours2 + " часов работы может быть поделено между сотрудниками");
 
+//Переменные часть 2
+// задача 1
+        int num1 = 123456789;
+        byte num2 = 127;
+        short num3 = 12345;
+        long num4 = 12345678L;
+        float num5 = 3.12345f;
+        double num6 = 8.1234567;
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(num4);
+        System.out.println(num5);
+        System.out.println(num6);
+//задача 2
+        double numb1 = 27.12;
+        long numb2 = 987678965549L;
+        float numb3 = 2.786f;
+        boolean numb4 = 10 < 5;
+        short numb5 = 569;
+        short numb6 = -159;
+        int numb7 = 27897;
+        byte numb8 = 67;
+        System.out.println(numb1);
+        System.out.println(numb2);
+        System.out.println(numb3);
+        System.out.println(numb4);
+        System.out.println(numb5);
+        System.out.println(numb6);
+        System.out.println(numb7);
+        System.out.println(numb8);
+//задача 3
+        int studentsLP = 23;
+        int studentsAS = 27;
+        int studentsEA = 30;
+        int allPapers = 480;
+        int allStudents = studentsLP + studentsAS + studentsEA;
+        int papersOnOneStudent = allPapers / allStudents;
+        System.out.println("На каждого ученика рассчитано " + papersOnOneStudent + " листов бумаги");
+//задача 4
+        byte performanceIn2Min = 16;
+        byte time = 2;
+        int performance = performanceIn2Min / time;
+        byte time1 = 20;
+        int performance1 = performance * time1;
+        System.out.println("За " + time1 + " минут, машина произвела бутылок " + performance1 + " штук");
+        byte time2 = 24; //за сутки - 24 часа
+        int time2InMin = time2 * 60; //перевожу в минуты
+        int performance2 = performance * time2InMin;
+        System.out.println("За сутки, машина произвела бутылок " + performance2 + " штук");
+        int time3 = time2InMin * 3;
+        int performance3 = performance * time3; //можно проще: "int performance3 = performance2 * 3"
+        System.out.println("За 3 суток, машина произвела бутылок " + performance3 + " штук");
+        int time4 = time3 * 10; //если в месяце 30 дней (а не 31 или 28\29)
+        int performance4 = performance * time4;
+        System.out.println("За месяц, машина произвела бутылок " + performance4 + " штук");
+//задача 5
+        byte allCans = 120;
+        byte whitePaint1class = 2;
+        byte brownPaint1class = 4;
+        int allCansFor1Class = whitePaint1class + brownPaint1class;
+        int allClasses = allCans / allCansFor1Class;
+        int allWhiteCans = whitePaint1class * allClasses;
+        int allBrownCans = brownPaint1class * allClasses;
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + allWhiteCans + " банок белой краски и " + allBrownCans +" банок коричневой краски");
+//задача 6
+        int bananas = 5 * 80;
+        int milk = 2 * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 70;
+        int breakfastWeight = bananas + milk + iceCream + eggs;
+        float kgWeight = breakfastWeight / 1000f;
+        System.out.println("Вес завтрака равен " + kgWeight + " кг");
+
+
+
+
+
+
 
 
     }
