@@ -59,7 +59,7 @@ public class Main {
         var totalHours2 = totalStaff2 * 8;
         System.out.println("Если в компании работает " + totalStaff2 + " человек, то всего " + totalHours2 + " часов работы может быть поделено между сотрудниками");
 
-//Переменные часть 2
+//ПЕРЕМЕННЫЕ ЧАСТЬ 2
 // задача 1
         int num1 = 123456789;
         byte num2 = 127;
@@ -134,7 +134,7 @@ public class Main {
         System.out.println("Вес завтрака равен " + kgWeight + " кг");
 //задача 7
         int needToLooseKg = 7;
-        int needToLooseGr = needToLooseKg * 1000;
+        int needToLooseGr = needToLooseKg * 1000; //Перевожу в граммы
         int oneDayLooseGr1 = 250;
         int numberOfDays1 = needToLooseGr / oneDayLooseGr1;
         System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то похудеет на 7кг через " + numberOfDays1 + " дней");
@@ -143,12 +143,29 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то похудеет на 7кг через " + numberOfDays2 + " дней");
         int averageNumberOfDays = (numberOfDays1 + numberOfDays2) / 2;
         System.out.println("Среднее количество дней похудания: " + averageNumberOfDays);
+//задача 8
+        byte salaryIncrease = 10;
+        float salaryIncreaseCoefficient = salaryIncrease / 100f;
+        int mashaSalary1 = 67760;
+        int mashaSalaryYear1 = mashaSalary1 * 12;
+        float mashaSalary2 = mashaSalary1 * salaryIncreaseCoefficient + mashaSalary1;
+        float mashaSalaryYear2 = mashaSalary2 * 12;
+        float mashaSalaryDifference = mashaSalaryYear2 - mashaSalaryYear1;
+        System.out.println("Маша теперь получает " + (int) mashaSalary2 + " рублей. Годовой доход вырос на " + (int) mashaSalaryDifference + " рублей");
 
+        int denisSalary1 = 83690;
+        int denisSalaryYear1 = denisSalary1 * 12;
+        float denisSalary2 = denisSalary1 * salaryIncreaseCoefficient + denisSalary1;
+        float denisSalaryYear2 = denisSalary2 * 12;
+        float denisSalaryDifference = denisSalaryYear2 - denisSalaryYear1;
+        System.out.println("Денис теперь получает " + (int) denisSalary2 + " рублей. Годовой доход вырос на " + (int) denisSalaryDifference + " рублей");
 
-
-
-
-
+        int kristinaSalary1 = 76230;
+        int kristinaSalaryYear1 = kristinaSalary1 * 12;
+        float kristinaSalary2 = kristinaSalary1 * salaryIncreaseCoefficient + kristinaSalary1;
+        float kristinaSalaryYear2 = kristinaSalary2 * 12;
+        float kristinaSalaryDifference = kristinaSalaryYear2 - kristinaSalaryYear1;
+        System.out.println("Кристина теперь получает " + (int) kristinaSalary2 + " рублей. Годовой доход вырос на " + (int) kristinaSalaryDifference + " рублей");
 
 
 
