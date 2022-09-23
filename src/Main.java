@@ -132,6 +132,18 @@ public class Main {
         int breakfastWeight = bananas + milk + iceCream + eggs;
         float kgWeight = breakfastWeight / 1000f;
         System.out.println("Вес завтрака равен " + kgWeight + " кг");
+//задача 7
+        int needToLooseKg = 7;
+        int needToLooseGr = needToLooseKg * 1000;
+        int oneDayLooseGr1 = 250;
+        int numberOfDays1 = needToLooseGr / oneDayLooseGr1;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то похудеет на 7кг через " + numberOfDays1 + " дней");
+        int oneDayLooseGr2 = 500;
+        int numberOfDays2 = needToLooseGr / oneDayLooseGr2;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то похудеет на 7кг через " + numberOfDays2 + " дней");
+        int averageNumberOfDays = (numberOfDays1 + numberOfDays2) / 2;
+        System.out.println("Среднее количество дней похудания: " + averageNumberOfDays);
+
 
 
 
