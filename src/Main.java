@@ -61,23 +61,26 @@ public class Main {
 
 //ПЕРЕМЕННЫЕ ЧАСТЬ 2
 // задача 1
+        System.out.println("ПЕРЕМЕННЫЕ ЧАСТЬ2");
+        System.out.println("Задача 1");
         int num1 = 123456789;
         byte num2 = 127;
         short num3 = 12345;
         long num4 = 12345678L;
         float num5 = 3.12345f;
         double num6 = 8.1234567;
-        System.out.println(num1);
-        System.out.println(num2);
-        System.out.println(num3);
-        System.out.println(num4);
-        System.out.println(num5);
-        System.out.println(num6);
+        System.out.println("Значение переменной num1 с типом int равно " + num1);
+        System.out.println("Значение переменной num2 с типом byte равно " + num2);
+        System.out.println("Значение переменной num3 с типом short равно " + num3);
+        System.out.println("Значение переменной num4 с типом long равно " + num4);
+        System.out.println("Значение переменной num5 с типом float равно " + num5);
+        System.out.println("Значение переменной num6 с типом double равно " + num6);
 //задача 2
+        System.out.println("Задача 2");
         double numb1 = 27.12;
         long numb2 = 987678965549L;
         float numb3 = 2.786f;
-        boolean numb4 = 10 < 5;
+        boolean numb4 = false;
         short numb5 = 569;
         short numb6 = -159;
         int numb7 = 27897;
@@ -91,6 +94,7 @@ public class Main {
         System.out.println(numb7);
         System.out.println(numb8);
 //задача 3
+        System.out.println("Задача 3");
         int studentsLP = 23;
         int studentsAS = 27;
         int studentsEA = 30;
@@ -99,6 +103,7 @@ public class Main {
         int papersOnOneStudent = allPapers / allStudents;
         System.out.println("На каждого ученика рассчитано " + papersOnOneStudent + " листов бумаги");
 //задача 4
+        System.out.println("Задача 4");
         byte performanceIn2Min = 16;
         byte time = 2;
         int performance = performanceIn2Min / time;
@@ -116,6 +121,7 @@ public class Main {
         int performance4 = performance * time4;
         System.out.println("За месяц, машина произвела бутылок " + performance4 + " штук");
 //задача 5
+        System.out.println("Задача 5");
         byte allCans = 120;
         byte whitePaint1class = 2;
         byte brownPaint1class = 4;
@@ -125,6 +131,7 @@ public class Main {
         int allBrownCans = brownPaint1class * allClasses;
         System.out.println("В школе, где " + allClasses + " классов, нужно " + allWhiteCans + " банок белой краски и " + allBrownCans +" банок коричневой краски");
 //задача 6
+        System.out.println("Задача 6");
         int bananas = 5 * 80;
         int milk = 2 * 105;
         int iceCream = 2 * 100;
@@ -133,6 +140,7 @@ public class Main {
         float kgWeight = breakfastWeight / 1000f;
         System.out.println("Вес завтрака равен " + kgWeight + " кг");
 //задача 7
+        System.out.println("Задача 7");
         int needToLooseKg = 7;
         int needToLooseGr = needToLooseKg * 1000; //Перевожу в граммы
         int oneDayLooseGr1 = 250;
@@ -144,6 +152,7 @@ public class Main {
         int averageNumberOfDays = (numberOfDays1 + numberOfDays2) / 2;
         System.out.println("Среднее количество дней похудания: " + averageNumberOfDays);
 //задача 8
+        System.out.println("Задача 8");
         byte salaryIncrease = 10;
         float salaryIncreaseCoefficient = salaryIncrease / 100f;
         int mashaSalary1 = 67760;
